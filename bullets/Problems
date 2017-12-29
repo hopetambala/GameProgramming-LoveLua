@@ -1,0 +1,9 @@
+Problems
+Can't shoot standing still unless you move the player first
+	haven't handled the possibility of no movement before player shoots? 
+	organize key_inputs better?
+	organize bullet.x or bullet.y assignments better?
+
+Random collisions are not being recognized
+	order bullet removal better?
+

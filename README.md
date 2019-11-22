@@ -1,6 +1,6 @@
 # Personal-LuaAndLove2d-ZeldaWithBullets
 
-Game Prototyping I did when I had no internet and 6hrs/day of electricity in the Dominican Republic during my Peace Corps Service haha I downloaded as many relevant libraries as I could offline: 
+Game Prototyping I did when I had no internet and 6hrs/day of electricity in the Dominican Republic during my Peace Corps Service. I downloaded as many relevant libraries as I could offline: 
 https://github.com/love2d-community/awesome-love2d
 
 Uses BUMP Collision System with Simple Tiled Implementation libraries. 

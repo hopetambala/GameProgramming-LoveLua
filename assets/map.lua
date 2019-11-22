@@ -1,13 +1,14 @@
 return {
-  version = "1.1",
+  version = "1.2",
   luaversion = "5.1",
-  tiledversion = "1.0.3",
+  tiledversion = "1.3.1",
   orientation = "orthogonal",
   renderorder = "right-down",
   width = 30,
   height = 20,
   tilewidth = 80,
   tileheight = 80,
+  nextlayerid = 7,
   nextobjectid = 67,
   properties = {},
   tilesets = {
@@ -19,6 +20,7 @@ return {
       tileheight = 80,
       spacing = 0,
       margin = 0,
+      columns = 16,
       image = "80x80DungeonTileset.v3 copy.png",
       imagewidth = 1280,
       imageheight = 1280,
@@ -40,6 +42,7 @@ return {
   layers = {
     {
       type = "tilelayer",
+      id = 1,
       name = "Ground",
       x = 0,
       y = 0,
@@ -76,6 +79,7 @@ return {
     },
     {
       type = "tilelayer",
+      id = 2,
       name = "Ground 2",
       x = 0,
       y = 0,
@@ -112,6 +116,7 @@ return {
     },
     {
       type = "tilelayer",
+      id = 3,
       name = "Objects - Below Player",
       x = 0,
       y = 0,
@@ -148,6 +153,7 @@ return {
     },
     {
       type = "tilelayer",
+      id = 4,
       name = "Objects - On Top of Player",
       x = 0,
       y = 0,
@@ -184,8 +190,9 @@ return {
     },
     {
       type = "objectgroup",
+      id = 5,
       name = "Collision",
-      visible = true,
+      visible = false,
       opacity = 1,
       offsetx = 0,
       offsety = 0,
@@ -508,6 +515,7 @@ return {
     },
     {
       type = "objectgroup",
+      id = 6,
       name = "Border",
       visible = true,
       opacity = 1,

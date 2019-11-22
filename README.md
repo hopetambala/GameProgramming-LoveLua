@@ -56,3 +56,13 @@ Ideas I want to implement
             * As it happened (i.e. play as the bad guys)
             * skill of main player
                 * reference to her latent psychic ability
+
+Create Love Zip File
+```
+zip -9 -r ZeldaBullets.love .
+```
+
+Run game
+```
+open ZeldaBullets.love
+```

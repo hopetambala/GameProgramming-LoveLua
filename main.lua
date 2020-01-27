@@ -25,14 +25,16 @@ function love.load()
 
 	--loading player
 	player_1 = player:new()
-	--loading bullets
-	bullet_1 = bullets:new()
+	
 
 	--STI: Create new dynamic data layer called "game" as the X layer
 	map:addCustomLayer("action", 4)
 
 	--Load player object and it's properties into BUMP world
 	world:add(player_1, player_1.x, player_1.y, 32,32)
+
+	--loading bullets
+	bullet_1 = bullets:new()
 
 
 	--Load STI objects and their properties into BUMP world

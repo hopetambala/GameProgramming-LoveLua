@@ -66,3 +66,8 @@ Run game
 ```
 open ZeldaBullets.love
 ```
+or
+
+```
+love ./
+```
